@@ -78,7 +78,6 @@ These add the width and the centering of every section */
   flex-direction: column;
   justify-content: space-evenly;
   gap: 10px;
-  /*min-width: 250px;*/
 }
 
 .intro-informational div {
