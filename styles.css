@@ -138,10 +138,10 @@ These add the width and the centering of every section */
 .quote {
   display: flex;
   flex-direction: column;
-  width: 680px;
-  padding: 100px 60px 70px 60px; 
+  width: 700px;
+  padding: 100px 60px 80px 60px; 
 
-  font-size: 24px;
+  font-size: 30px;
   font-style: italic;
   font-weight: 100;
   color: #1F2937
