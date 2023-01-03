@@ -112,10 +112,11 @@ h1, h2, div {
 }
 
 .picture img {
-  width: 160px;
-  height: 160px;
-  border: blue;
-  border-radius: 5px;
+  width: 140px;
+  height: 140px;
+  border: 5px;
+  border: 4px solid rgba(21, 111, 255, 0.883);
+  border-radius: 10px;
 }
 
 .pictures .picture div {
