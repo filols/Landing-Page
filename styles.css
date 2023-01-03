@@ -135,6 +135,7 @@ These add the width and the centering of every section */
   width: 150px;
   padding-top: 5px;
   text-align: center;
+  font-style: italic
 }
 
 /* QUOTE SECTION */
