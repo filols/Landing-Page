@@ -40,7 +40,8 @@ These add the width and the centering of every section */
 .intro-container,
 .picture-section-container,
 .quote,
-.call-to-action {
+.call-to-action,
+.footer {
   width: 71%;
   margin: auto;
 }
@@ -187,4 +188,18 @@ These add the width and the centering of every section */
   text-align: center;
   font-weight: bold;
   font-size: 15px
+}
+
+/* FOOTER SECTION */
+.footer-container {
+  padding: 35px 0 35px 0;
+  background-color: #1F2937;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: #c1c4cb;
 }
