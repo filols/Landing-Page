@@ -52,8 +52,8 @@ h1, h2, div {
 
 .intro-container {
   display: flex;
-  padding: 100px 0px;
-  gap: 40px;
+  padding: 90px 0px;
+  gap: 30px;
 }
 
 .intro-elements {
@@ -69,11 +69,11 @@ h1, h2, div {
 
 .intro-informational div {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #ccced3;
 }
 
 .intro-img {
-  height: 200px;
+  height: 210px;
   width: 100%;
   margin: 0 16px 0 auto;
 }
