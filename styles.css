@@ -34,15 +34,19 @@ h1, h2, div {
   margin: 0;
 }
 
-.header-and-intro {
-  background-color: #1F2937;
-}
-
+/* CONTAINER SECTION: 
+These add the width and the centering of every section */
 .header,
 .intro-container,
-.picture-section-container {
+.picture-section-container,
+.quote {
   width: 71%;
   margin: auto;
+}
+
+/* HEADER AND INTRO SECTION */
+.header-and-intro {
+  background-color: #1F2937;
 }
 
 .header {
@@ -89,8 +93,9 @@ h1, h2, div {
   border: 0px;
 }
 
+/* PICTURE SECTION */
 .picture-section {
-  padding: 40px 40px 80px 40px;
+  padding: 40px 40px 100px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -115,7 +120,7 @@ h1, h2, div {
   width: 140px;
   height: 140px;
   border: 5px;
-  border: 4px solid rgba(21, 111, 255, 0.883);
+  border: 3px solid rgba(21, 111, 255, 0.883);
   border-radius: 10px;
 }
 
@@ -123,4 +128,29 @@ h1, h2, div {
   width: 150px;
   padding-top: 5px;
   text-align: center;
+}
+
+/* QUOTE SECTION */
+.quote-container {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  padding: 100px 60px 70px 60px; 
+
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937
+
+}
+
+.quoted-person {
+  margin-left: auto;
+  padding-right: 40px;
+  font-size: 20px;
+  font-weight: bold;
 }
