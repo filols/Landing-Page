@@ -6,13 +6,15 @@ html, body {
 ul {
   list-style-type: none;
   display: flex;
+
 }
 
 a {
   text-decoration: none;
   color: #d3d3d3ce;
   margin: 0;
-  padding: 16px;
+  padding: 16px 0px 16px 16px;
+  font-style: italic
 }
 
 h1, h2 {
@@ -61,9 +63,9 @@ These add the width and the centering of every section */
 .intro-container {
   display: flex;
   justify-content: space-evenly;
-  padding: 90px 0px;
+  padding: 40px 0 60px 0;
   gap: 30px;
-  min-width: 400px;
+  min-width: 450px;
 }
 
 .intro-elements {
@@ -74,8 +76,9 @@ These add the width and the centering of every section */
 .intro-informational {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-width: 250px;
+  justify-content: space-evenly;
+  gap: 10px;
+  /*min-width: 250px;*/
 }
 
 .intro-informational div {
@@ -84,16 +87,22 @@ These add the width and the centering of every section */
 }
 
 .intro-img {
-  height: 210px;
-  width: 100%;
-  margin: 0 16px 0 auto;
+  height: 240px;
+  width: 90%;
+  border-radius: 10px;
+  min-width: 0;
 }
 
-.intro-sign-up-button {
+.intro-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.intro-button {
   background-color: #3882F6;
   color: white;
   font-size: 18px;
-  width: 120px;
+  width: 150px;
   height: 30px;
   border-radius: 8px;  
   border: 0px;
@@ -101,19 +110,20 @@ These add the width and the centering of every section */
 
 /* PICTURE SECTION */
 .picture-section {
-  padding: 40px 40px 100px 40px;
+  padding: 30px 0 60px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .pictures {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 40px;
+  justify-content: center;
+  gap: 90px;
 }
 
 .picture-information {
@@ -124,15 +134,13 @@ These add the width and the centering of every section */
 }
 
 .picture img {
-  width: 140px;
-  height: 140px;
-  border: 5px;
-  border: 3px solid rgba(21, 111, 255, 0.883);
+  width: 180px;
+  height: 180px;
+  border: 2px solid #1F2937;
   border-radius: 15px;
 }
 
 .pictures .picture div {
-  width: 150px;
   padding-top: 5px;
   text-align: center;
   font-style: italic
@@ -164,13 +172,14 @@ These add the width and the centering of every section */
 }
 
 /* CALL-TO-ACTION SECTION */
-/*.call-to-action {
+.call-to-action {
   display: flex;
-  justify-content: center;
-}*/
+  justify-content: space-evenly;
+}
 
 .call-to-action-box {
-  margin: 80px 0 80px 0;
+  width: 100%;
+  margin: 40px 0 40px 0;
   padding: 50px 30px 50px 30px;
   background-color: #3882F6;
   color: white;
@@ -178,7 +187,8 @@ These add the width and the centering of every section */
   justify-content: space-around;
   align-items: center;
   border-radius: 10px; 
-  min-width: 310px;
+  min-width: 380px;
+  gap: 30px;  
 }
 
 .call-to-action .urge {
