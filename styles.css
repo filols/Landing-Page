@@ -121,7 +121,7 @@ These add the width and the centering of every section */
   height: 140px;
   border: 5px;
   border: 3px solid rgba(21, 111, 255, 0.883);
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .pictures .picture div {
