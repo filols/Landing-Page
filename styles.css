@@ -154,7 +154,7 @@ These add the width and the centering of every section */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 100px 60px 80px 60px; 
+  padding: 65px 60px; 
   width: 50%;
 
   font-size: 30px;
